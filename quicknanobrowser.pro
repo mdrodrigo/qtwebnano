@@ -15,6 +15,8 @@ OTHER_FILES += ApplicationRoot.qml \
 
 RESOURCES += resources.qrc
 
+CONFIG+=use_lld_linker
+
 QT += qml quick webengine
 
 qtHaveModule(widgets) {
